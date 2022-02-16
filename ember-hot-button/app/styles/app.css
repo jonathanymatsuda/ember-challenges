@@ -8,3 +8,33 @@ button {
   margin-top: 10px;
   margin-left: 15px;
 }
+
+.clicks-three {
+  color: white;
+  background-color: #351C75;
+}
+
+.clicks-six {
+  color: white;
+  background-color: #664DA5;
+}
+
+.clicks-nine {
+  color: white;
+  background-color: #E06666;
+}
+
+.clicks-twelve {
+  color: black;
+  background-color: #F6B26B;
+}
+
+.clicks-fifteen {
+  color: black;
+  background-color: #FFFB00;
+}
+
+.clicks-eighteen {
+  color: black;
+  background-color: white;
+}
