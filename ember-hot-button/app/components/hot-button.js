@@ -8,6 +8,6 @@ export default class HotButtonComponent extends Component {
 
   @action
   incrementClick() {
-    this.count = this.count + 1;
+    this.count++;
   }
 }
