@@ -6,17 +6,26 @@ export default class HotButtonComponent extends Component {
   @tracked
   count = 0;
 
-  @action
-  incrementClick() {
-    this.count++;
-  }
+  @tracked
+  classStyling = null;
 
-  buttonStyling() {
-    // if (this.count >= 18) return 'clicks-eighteen';
-    // if (this.count >= 15) return 'clicks-fifteen';
-    // if (this.count >= 12) return 'clicks-twelve';
-    // if (this.count >= 9) return 'clicks-nine';
-    // if (this.count >= 6) return 'clicks-six';
-    if (this.count === 3) return 'clicks-three';
+  @action
+  handleClick() {
+    this.count++;
+    if (this.count < 3) {
+      this.classStyling;
+    } else if (this.count < 6) {
+      this.classStyling = 'clicks-three';
+    } else if (this.count < 9) {
+      this.classStyling = 'clicks-six';
+    } else if (this.count < 12) {
+      this.classStyling = 'clicks-nine';
+    } else if (this.count < 15) {
+      this.classStyling = 'clicks-twelve';
+    } else if (this.count < 18) {
+      this.classStyling = 'clicks-fifteen';
+    } else {
+      this.classStyling = 'clicks-nuclear';
+    }
   }
 }
