@@ -1,0 +1,5 @@
+<div id="ember-toggle">
+  <div class={{if this.isClicked "switch switch-active" "switch"}}></div>
+  <div {{on "click" this.handleClick}} class={{if this.isClicked "knob knob-active" "knob" }}></div>
+  <label>{{if this.isClicked "ON" "OFF"}}</label>
+</div>
