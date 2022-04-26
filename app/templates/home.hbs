@@ -1,8 +1,4 @@
-<<<<<<< HEAD:app/templates/home.hbs
 {{page-title 'Home'}}
-=======
-{{page-title "Ember Challenges"}}
->>>>>>> 2e0e82bde7ab070d148cd8305f0fe02f3987dfc0:app/templates/ember-challenges.hbs
 <div class="text-center mt-16">
   <h2 class="text-base font-semibold text-blue-800 tracking-wide uppercase">
     Practice
@@ -35,19 +31,17 @@
             </h3>
           </div>
           <div class="ml-4">
-<<<<<<< HEAD:app/templates/home.hbs
-            <p class="text-base font-medium text-gray-900">
-              Hot Button
-            </p>
-            <p class="mt-1 text-sm text-gray-500">
-              Based on the number of clicks button color will change.
-            </p>
-=======
-            <LinkTo class="text-base font-medium text-gray-900" @route="hot-button">
-              <span>Hot Button</span>
-              <p class="mt-1 text-sm text-gray-500">Based on number of button color will change.</p>
+            <LinkTo
+              class="text-base font-medium text-gray-900"
+              @route="hot-button"
+            >
+              <span>
+                Hot Button
+              </span>
+              <p class="mt-1 text-sm text-gray-500">
+                Based on a number of clicks the button color will change.
+              </p>
             </LinkTo>
->>>>>>> 2e0e82bde7ab070d148cd8305f0fe02f3987dfc0:app/templates/ember-challenges.hbs
           </div>
         </LinkTo>
         <a
@@ -214,9 +208,4 @@
       <div class="p-5 bg-gray-50 sm:p-8"></div>
     </div>
   </div>
-<<<<<<< HEAD:app/templates/home.hbs
 </div>
-=======
-</div>
-{{outlet}}
->>>>>>> 2e0e82bde7ab070d148cd8305f0fe02f3987dfc0:app/templates/ember-challenges.hbs
