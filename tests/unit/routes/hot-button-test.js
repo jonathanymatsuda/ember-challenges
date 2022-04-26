@@ -1,11 +1,11 @@
 import { module, test } from 'qunit';
 import { setupTest } from 'ember-qunit';
 
-module('Unit | Route | ember-challenges', function (hooks) {
+module('Unit | Route | hot-button', function (hooks) {
   setupTest(hooks);
 
   test('it exists', function (assert) {
-    let route = this.owner.lookup('route:ember-challenges');
+    let route = this.owner.lookup('route:hot-button');
     assert.ok(route);
   });
 });
