@@ -12,7 +12,6 @@ export default class HotButtonComponent extends Component {
   @action
   handleClick() {
     this.count++;
-    console.log(this.count);
     if (this.count < 3) {
       this.classColorUpdates = 'bg-inherit';
     } else if (this.count < 6) {
